@@ -35,10 +35,6 @@ body, html{
   opacity: 0;
   z-index: 1;
   text-align: center;
-  -webkit-animation: intro 2s ease-out;
-  -moz-animation: intro 2s ease-out;
-  -ms-animation: intro 2s ease-out;
-  -o-animation: intro 2s ease-out;
   animation: intro 2s ease-out;
 }
 
@@ -94,7 +90,7 @@ body, html{
 .star-wars-intro .title-content {
   position: absolute;
   top: 100%;
-  animation: scroll 120s linear 4s forwards;
+  animation: scroll 150s linear 4s forwards;
 }
 
 .star-wars-intro .title-content > .content-header {
@@ -111,11 +107,7 @@ body, html{
   text-align: center;
   opacity: 0;
   z-index: 1;
-  -webkit-animation: logo 5s ease-out 2.5s;
-  -moz-animation: logo 5s ease-out 2.5s;
-  -ms-animation: logo 5s ease-out 2.5s;
-  -o-animation: logo 5s ease-out 2.5s;
-  animation: logo 5s ease-out 2.5s;
+  animation: logo 8s ease-out 2.5s;
 }
 
 .star-wars-intro .main-logo > h2 {
@@ -128,59 +120,10 @@ body, html{
   letter-spacing: -0.05em;
 }
 
-@-webkit-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-moz-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-ms-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@-o-keyframes intro {
-  0% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
 @keyframes intro {
   0% { opacity: 1; }
   90% { opacity: 1; }
   100% { opacity: 0; }
-}
-
-
-@-webkit-keyframes logo {
-  0% { -webkit-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -webkit-transform: scale(0.1); opacity: 0; }
-}
-
-@-moz-keyframes logo {
-  0% { -moz-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -moz-transform: scale(0.1); opacity: 0; }
-}
-
-@-ms-keyframes logo {
-  0% { -ms-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -ms-transform: scale(0.1); opacity: 0; }
-}
-
-@-o-keyframes logo {
-  0% { -o-transform: scale(1); opacity: 1; }
-  50% { opacity: 1; }
-  100% { -o-transform: scale(0.1); opacity: 0; }
 }
 
 @keyframes logo {
